@@ -1,0 +1,22 @@
+From JS Testing:
+
+- Jest
+  - test runner
+  - testing framework/library
+  - gave us the language to write tests
+    - expect
+    - matchers (.toBe)
+- Test Driven Development (style of testing)
+  - write the test before you write
+
+  New concepts
+  - Rspec
+    - testing framework for Ruby
+  - Behavior Driven Development testing framework
+    - BDD is a form of TDD
+    - describes behavior of code
+
+  Unit vs Integration Testing
+
+  Unit Testing-testing functions/methods
+  Integration Testing-testing how different modules work together
