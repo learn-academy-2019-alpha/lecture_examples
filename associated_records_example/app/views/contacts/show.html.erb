@@ -1,0 +1,11 @@
+<h1>Contact: <%= @contact.name %></h1>
+
+<h2>Gym Memberships</h2>
+
+<ul>
+  <% @contact.gym_memberships.each do |membership| %>
+    <li><%= link_to membership.name, gym_membership_path(membership) %></li>
+  <% end %>
+</ul>
+
+<%= link_to "New Gym Membership", new_gym_membership_path({contact_id: @contact.id}) %>

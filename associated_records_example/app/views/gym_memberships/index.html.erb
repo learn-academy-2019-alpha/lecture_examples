@@ -1,0 +1,9 @@
+<h1>Gym Memberships</h1>
+
+<ul>
+  <% @memberships.each do |membership| %>
+    <li>
+      <%= link_to "#{membership.contact.name} - #{membership.name}", edit_gym_membership_path(membership) %>
+    </li>
+  <% end %>
+</ul>

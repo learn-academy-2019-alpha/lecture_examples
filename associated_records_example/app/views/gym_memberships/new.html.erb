@@ -1,0 +1,9 @@
+<h1>Step right up and create a Gym Membership Today!</h1>
+
+<%= form_for @membership do |f| %>
+  <%= f.hidden_field :contact_id %>
+  <%= f.label :name %>
+  <%= f.text_field :name %></br>
+
+  <%= f.submit "Create" %>
+<% end %>
